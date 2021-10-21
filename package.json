@@ -1,6 +1,6 @@
 {
   "name": "@carrotrevolution/pubsub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "PubSub Helper",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",

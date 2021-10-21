@@ -1,8 +1,8 @@
 import {Attributes} from '@google-cloud/pubsub';
 
-type PubSubDataType = 'gift-code';
+export type PubSubDataType = 'gift-code';
 
-type PubSubEventType = 'created' | 'updated' | 'removed';
+export type PubSubEventType = 'created' | 'updated' | 'removed';
 
 export interface PublishAttributes extends Attributes {
   dataType: PubSubDataType;
